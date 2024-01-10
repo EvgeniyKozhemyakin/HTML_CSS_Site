@@ -235,6 +235,16 @@ summary::-webkit-details-marker {
   height: 730px;
   background-color: #ffffff;
   border: 1px solid #eaeaea;
+  padding-top: 73px;
+  padding-bottom: 122px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main_menu_bottom_top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .main_menu_bottom_top_title {
   font-family: Loto;
@@ -246,6 +256,7 @@ summary::-webkit-details-marker {
   border-bottom: 1px solid #eaeaea;
 }
 .main_menu_bottom_top_titletext {
+  margin-top: 17px;
   font-family: Loto;
   font-size: 18px;
   line-height: 24px;
@@ -254,16 +265,22 @@ summary::-webkit-details-marker {
   color: #4d4d4d;
 }
 .main_menu_bottom_top_text {
+  margin-top: 67px;
+  margin-left: 262px;
+  margin-right: 262px;
+  margin-bottom: 28px;
   font-family: Loto;
   font-size: 14px;
   line-height: 24px;
   font-weight: 300;
   color: #5e5e5e;
+  font-family: Lato;
 }
 .main_menu_bottom_top_block {
   display: flex;
   justify-content: center;
   gap: 44px;
+  margin-bottom: 37px;
 }
 .main_menu_bottom_top_block_text {
   font-family: Loto;
@@ -276,8 +293,17 @@ summary::-webkit-details-marker {
   color: #2f2f2f;
 }
 .main_menu_bottom_top_coasttext {
+  display: flex;
+  justify-content: center;
   background-color: #ffffff;
   border-bottom: 1px solid #eaeaea;
+  width: 642px;
+  padding-bottom: 43px;
+  font-family: Loto;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #ef5b70;
 }
 
 .main_content {
@@ -382,21 +408,21 @@ summary::-webkit-details-marker {
 .main_content_button {
   margin-top: 48px;
   margin-bottom: 113px;
-  width: 212px;
+  width: 537px;
+  height: 55px;
   flex-shrink: 0;
   border: 1px solid rgb(255, 106, 106);
-  background: #f16d7f;
+  background-color: #ffffff;
   transition: background-color 0.6s;
 }
 .main_content_button_text {
   display: block;
-  margin-right: 9px;
-  font-family: Loto;
+  font-family: Lato;
   font-size: 16px;
-  line-height: 48px;
+  line-height: 1.2;
   font-weight: 700;
+  color: #ef5b70;
   letter-spacing: 0.025em;
-  color: #ffffff;
   transition: color 0.6s;
 }
 .main_content_button_text:hover {
