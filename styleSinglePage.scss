@@ -316,6 +316,48 @@ summary::-webkit-details-marker {
         color: #ef5b70;
       }
     }
+    &_bot {
+      display: flex;
+      flex-direction: column;
+      &_choose {
+        display: flex;
+        justify-content: space-between;
+        &_item {
+          &_text {
+            font-family: $font-family;
+            font-size: 14px;
+            line-height: 24px;
+            font-weight: 700;
+            color: #2f2f2f;
+          }
+          &_select {
+            width: 144px;
+            background-color: #ffffff;
+            border: 1px solid #eaeaea;
+            padding-left: 14px;
+            padding-bottom: 12px;
+            padding-top: 11px;
+            padding-right: 8px;
+            &_item {
+              &>option {
+                font-family: Lato;
+                font-size: 13px;
+                line-height: 24px;
+                font-weight: 400;
+                color: #bcbcbc;
+              }
+            }
+            &_item>option{
+              font-family: Lato;
+                font-size: 13px;
+                line-height: 24px;
+                font-weight: 400;
+                color: #bcbcbc;
+            }
+          }
+        }
+      }
+    }
   }
 }
 
@@ -434,7 +476,7 @@ summary::-webkit-details-marker {
 
     &_text {
       display: block;
- 
+
       font-family: Lato;
       font-size: 16px;
       line-height: 1.2;
